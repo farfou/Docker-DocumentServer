@@ -256,3 +256,9 @@ service nginx start
 
 # Regenerate the fonts list and the fonts thumbnails
 documentserver-generate-allfonts.sh ${ONLYOFFICE_DATA_CONTAINER}
+
+while true
+do
+	echo "running"
+	sleep 5
+done
